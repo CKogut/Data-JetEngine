@@ -21,6 +21,7 @@ submission_dict = {
         'comments': response_dict['descendants'],
     }
 
+
 print(f"\nTitle: {submission_dict['title']}")
 print(f"Discussion link: {submission_dict['hn_link']}")
 print(f"Comments: {submission_dict['comments']}")
